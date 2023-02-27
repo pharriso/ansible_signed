@@ -1,0 +1,9 @@
+---
+
+- name: hello pat
+  hosts: localhost
+  gather_facts: false
+  tasks:
+  - name: say hello pat
+    debug:
+      msg: "hello pat!"
