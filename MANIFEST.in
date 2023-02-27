@@ -1,2 +1,1 @@
-include *.yml
-exclude .git
+recursive-include playbooks *.yml
